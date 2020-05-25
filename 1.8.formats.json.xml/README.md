@@ -1,4 +1,4 @@
-# Домашнее задание к лекции 3.1 «Работа с разными форматами данных»
+# Домашнее задание к лекции 1.8 «Работа с разными форматами данных»
 
 Взять из папки [3.1.formats.json.xml](https://github.com/netology-code/py-homework-basic-files/tree/master/3.1.formats.json.xml) файлы с новостями newsafr.json и newsafr.xml
 
