@@ -1,6 +1,6 @@
-# Домашнее задание к лекции 1.9 «Работа с библиотекой requests, http-запросы»
+# Домашнее задание к лекции 9.«Работа с библиотекой requests, http-запросы»
 
-Исходный код для выполнения домашней работы вы найдете в папке [3.2.http.requests](https://github.com/netology-code/py-homework-basic-files/tree/master/3.2.http.requests).
+Исходный код для выполнения домашней работы вы найдете в папке [http.requests](https://github.com/netology-code/py-homework-basic-files/tree/master/3.2.http.requests).
 
 ## Задача №1
 Необходимо расширить функцию переводчика так, чтобы она принимала следующие параметры:

@@ -1,4 +1,4 @@
-# Домашнее задание к лекции 1.7 «Открытие и чтение файла, запись в файл»
+# Домашнее задание к лекции 7.«Открытие и чтение файла, запись в файл»
 
 Необходимо написать программу для кулинарной книги.
 
@@ -11,7 +11,7 @@
 ...
 ```
 
-Пример([файл в папке 2.4.files](https://github.com/netology-code/py-homework-basic-files/tree/master/2.4.files)):
+Пример([файл в папке files](https://github.com/netology-code/py-homework-basic-files/tree/master/2.4.files)):
 ```
 Омлет
 3
