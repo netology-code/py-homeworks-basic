@@ -5,7 +5,7 @@
 
 
 ## Задание №0
-Список упражнений доступен в соседнем [файле](/1.4.collections/datatypes_cycles_2.ipynb)
+Список упражнений доступен в соседнем [файле](/4.collections/datatypes_cycles_2.ipynb)
 
 
 ## Задача №1
