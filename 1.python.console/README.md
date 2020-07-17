@@ -4,7 +4,8 @@
 Зарегистрироваться на сайте [hackerrank](https://www.hackerrank.com)  
 Решить задачу ["Say "Hello, World!" With Python"](https://www.hackerrank.com/challenges/py-hello-world/problem)  
 Решить задачу ["Arithmetic Operators"](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem)  
-Ссылку на *аккаунт* приложить в личном кабинете. 
+Ссылку на *аккаунт* приложить в личном кабинете.  
+Пример ссылки: https://www.hackerrank.com/eshmargunov
 
 ## Задача №2
 Квадрат и прямоугольник.
