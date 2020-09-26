@@ -26,8 +26,8 @@ Bohemian rhapsody-6min
 Пример использования
 ```python
 print(my_album)
-Name group:Queen
-Name albumBohemian rhapsody
+Name group: Queen
+Name album: Bohemian rhapsody
 Tracks:
 	Bohemian rhapsody-6min
 	The show must go on-4min
