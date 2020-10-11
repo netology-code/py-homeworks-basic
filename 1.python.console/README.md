@@ -17,7 +17,8 @@
 Решить задачу ["Say "Hello, World!" With Python"](https://www.hackerrank.com/challenges/py-hello-world/problem)  
 Решить задачу ["Arithmetic Operators"](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem)  
 Ссылку на *аккаунт* приложите в качестве решения к домашнему заданию. Для этого в правом верхнем углу сайта нажмите на своё имя, перейдите раздел "Profile" и скопируйте ссылку из адресной строки браузера.
-Например, ссылка на аккаунт eshmargunov выглядит следующим образом: hackerrank.com/eshmargunov
+
+Пример: ссылка на аккаунт eshmargunov - hackerrank.com/eshmargunov
 
 ## Задача №2
 Квадрат и прямоугольник.  
