@@ -12,6 +12,7 @@
 
 ## Задача №1
 Для успешного выполнения задачи вам нужно:
+
 Зарегистрироваться на сайте [hackerrank](https://www.hackerrank.com)  
 Решить задачу ["Say "Hello, World!" With Python"](https://www.hackerrank.com/challenges/py-hello-world/problem)  
 Решить задачу ["Arithmetic Operators"](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem)  
