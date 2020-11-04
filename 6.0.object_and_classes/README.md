@@ -60,7 +60,7 @@
 Пишите код в IDE (рекомендуем Pycharm, версия Community).  
 - Почему лучше работать в IDE? — Ускоряет работу, есть подсветка ошибок, отладка по шагам.  
 - Для более подробной информации используйте нашу [инструкцию](https://github.com/netology-code/guides/blob/master/python/Pycharm.md).  
-- Опирайтесь на принятые [правила оформления кода](https://github.com/netology-code/codestyle/tree/master/python)
+- Опирайтесь на принятые [правила оформления кода](https://github.com/netology-code/codestyle/tree/master/python)  
 ​
 Не сможем проверить или помочь, если вы пришлете:
 * архивы;
