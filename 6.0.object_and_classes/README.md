@@ -4,8 +4,8 @@
 
 Начиная с этого занятия, пишите код в IDE (рекомендуем [Pycharm](https://www.jetbrains.com/ru-ru/pycharm/download/#section=windows), версия Community, инструкицю по установке вы найдете на сайте).  
 - Почему лучше работать в IDE? — Ускоряет работу, есть подсветка ошибок, отладка по шагам.  
-- Для более подробной информации используйте нашу [инструкцию по работе с Pycharm](https://github.com/netology-code/guides/blob/master/python/Pycharm.md).  
-- Опирайтесь на принятые [правила оформления кода](https://github.com/netology-code/codestyle/tree/master/python)   
+- Для более подробной информации изучите [инструкцию по работе с Pycharm](https://github.com/netology-code/guides/blob/master/python/Pycharm.md).  
+- Опирайтесь на принятые [правила оформления кода](https://github.com/netology-code/codestyle/tree/master/python), чтобы выработать привычку писать профессионально. При несоблюдении принятого стиля домашние задания **могут** быть отправлены на доработку.   
 
 ## Как сдавать задачи
 1. Инициализируйте на своём компьютере пустой Git-репозиторий
