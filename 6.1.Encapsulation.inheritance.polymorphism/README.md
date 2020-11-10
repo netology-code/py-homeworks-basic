@@ -46,8 +46,7 @@ track2 = Track('The show must go on', 4)
 track1 > track2
 True
 ```
-
-​
+--- 
 ## Как сдавать задачи
 Пишите код в IDE (рекомендуем [Pycharm](https://www.jetbrains.com/ru-ru/pycharm/download/#section=windows), версия Community, инструкцию по установке вы найдете на сайте).  
 - Почему лучше работать в IDE? — Ускоряет работу, есть подсветка ошибок, отладка по шагам.  
