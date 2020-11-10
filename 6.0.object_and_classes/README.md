@@ -2,7 +2,7 @@
 ​
 Привет! Вы уже прошли курс по Git и узнали на занятии, что такое IDE. Пришло время применить полученные знания!
 
-Начиная с этого занятия, пишите код в IDE (рекомендуем [Pycharm](https://www.jetbrains.com/ru-ru/pycharm/download/#section=windows), версия Community).  
+Начиная с этого занятия, пишите код в IDE (рекомендуем [Pycharm](https://www.jetbrains.com/ru-ru/pycharm/download/#section=windows), версия Community, инструкицю по установке вы найдете на сайте).  
 - Почему лучше работать в IDE? — Ускоряет работу, есть подсветка ошибок, отладка по шагам.  
 - Для более подробной информации используйте нашу [инструкцию по работе с Pycharm](https://github.com/netology-code/guides/blob/master/python/Pycharm.md).  
 - Опирайтесь на принятые [правила оформления кода](https://github.com/netology-code/codestyle/tree/master/python)   
