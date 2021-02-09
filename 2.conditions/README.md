@@ -2,7 +2,7 @@
 
 ## Задача №1
 Задачи на [hackerrank](https://www.hackerrank.com/domains/python):  
-Решить задачу на hackerrank ["Python If-Else"](https://www.hackerrank.com/challenges/py-if-else/problem)  
+Решить задачу на hackerrank ["Python If-Else"](https://www.hackerrank.com/challenges/py-if-else/problem).  
 Ссылку на *аккаунт* приложить в личном кабинете.  
 
 ## Задача №2
