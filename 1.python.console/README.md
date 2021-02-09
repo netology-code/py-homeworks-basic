@@ -13,9 +13,9 @@
 ## Задача №1
 Для успешного выполнения задачи вам нужно:
 
-Зарегистрироваться на сайте [hackerrank](https://www.hackerrank.com)  
-Решить задачу ["Say "Hello, World!" With Python"](https://www.hackerrank.com/challenges/py-hello-world/problem)  
-Решить задачу ["Arithmetic Operators"](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem)  
+Зарегистрироваться на сайте [hackerrank](https://www.hackerrank.com).  
+Решить задачу ["Say "Hello, World!" With Python"](https://www.hackerrank.com/challenges/py-hello-world/problem).  
+Решить задачу ["Arithmetic Operators"](https://www.hackerrank.com/challenges/python-arithmetic-operators/problem).  
 Ссылку на *аккаунт* приложите в качестве решения к домашнему заданию. Чтобы получить ссылку, на сайте [hackerrank](https://www.hackerrank.com)  в правом верхнем углу нажмите на своё имя, перейдите в раздел "Profile" и скопируйте ссылку из адресной строки браузера.
 
 Пример: ссылка на аккаунт eshmargunov - hackerrank.com/eshmargunov
