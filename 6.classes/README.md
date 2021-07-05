@@ -16,7 +16,7 @@
 
 У проверяющих он должен выводить информацию в следующем виде:
 ```python
-print(some_lecturer)
+print(some_reviewer)
 Имя: Some
 Фамилия: Buddy
 ```
