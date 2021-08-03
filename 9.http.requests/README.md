@@ -21,18 +21,21 @@ HOST: https://cloud-api.yandex.net:443
 Шаблон для программы
 ```python
 class YaUploader:
-    def __init__(self, file_path: str):
-        self.file_path = file_path
+    def __init__(self, token):
+        self.token = token
 
-    def upload(self):
-        """Метод загруджает файлы по списку file_list на яндекс диск"""
+    def upload(self, file_path: str):
+        """Метод загружает файлы по списку file_list на яндекс диск"""
         # Тут ваша логика
-        return 'Вернуть ответ об успешной загрузке'
+        # Функция может ничего не возвращать
 
 
 if __name__ == '__main__':
-    uploader = YaUploader('c:\my_folder\file.txt')
-    result = uploader.upload()
+    # Получить путь к загружаемому файлу и токен от пользователя
+    path_to_file = ...
+    token = ...
+    uploader = YaUploader(token)
+    result = uploader.upload(path_to_file)
 
 ```
 ## \*Задача №3(необязательное)
