@@ -26,14 +26,19 @@ class YaUploader:
 
     def upload(self, file_path: str):
         """Метод загруджает файл file_path на яндекс диск"""
+
+    def upload(self, file_path: str):
+        """Метод загружает файлы по списку file_list на яндекс диск"""
         # Тут ваша логика
-        return 'Вернуть ответ об успешной загрузке'
+        # Функция может ничего не возвращать
 
 
 if __name__ == '__main__':
-    uploader = YaUploader('<Your Yandex Disk token>')
-    result = uploader.upload('c:\my_folder\file.txt')
-
+    # Получить путь к загружаемому файлу и токен от пользователя
+    path_to_file = ...
+    token = ...
+    uploader = YaUploader(token)
+    result = uploader.upload(path_to_file)
 ```
 ## \*Задача №3(необязательное)
 Самый важный сайт для программистов это [stackoverflow](https://stackoverflow.com/). И у него тоже есть [API](https://api.stackexchange.com/docs)
