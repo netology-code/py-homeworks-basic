@@ -8,7 +8,8 @@
 Токен, который нужно использовать для доступа к API: 2619421814940190.  
 Таким образом, все адреса для доступа к API должны начинаться с https://superheroapi.com/api/2619421814940190/.  
 
-> :warning: Недавно сервис SuperHero API переехал на заблокированный Роскомнадзором IP-адрес, из-за чего некоторые интернет-провайдеры заблокировали к нему доступ, он может быть недоступен. В таком случае решайте это задание на [REPL.it](https://repl.it/) — оттуда всё должно быть доступно.  
+-> :warning: Недавно сервис SuperHero API переехал на заблокированный Роскомнадзором IP-адрес, из-за чего некоторые интернет-провайдеры заблокировали к нему доступ, он может быть недоступен. В таком случае решайте это задание на [REPL.it](https://repl.it/) — оттуда всё должно быть доступно.  
+
 
 ## Задача №2
 У Яндекс.Диска есть очень удобное и простое API. Для описания всех его методов существует [Полигон](https://yandex.ru/dev/disk/poligon/).
@@ -24,19 +25,21 @@ HOST: https://cloud-api.yandex.net:443
 Шаблон для программы
 ```python
 class YaUploader:
-    def __init__(self, file_path: str):
-        self.file_path = file_path
+    def __init__(self, token: str):
+        self.token = token
 
-    def upload(self):
-        """Метод загруджает файлы по списку file_list на яндекс диск"""
+    def upload(self, file_path: str):
+        """Метод загружает файлы по списку file_list на яндекс диск"""
         # Тут ваша логика
-        return 'Вернуть ответ об успешной загрузке'
+        # Функция может ничего не возвращать
 
 
 if __name__ == '__main__':
-    uploader = YaUploader('c:\my_folder\file.txt')
-    result = uploader.upload()
-
+    # Получить путь к загружаемому файлу и токен от пользователя
+    path_to_file = ...
+    token = ...
+    uploader = YaUploader(token)
+    result = uploader.upload(path_to_file)
 ```
 ## \*Задача №3(необязательная)
 Самый важный сайт для программистов это [stackoverflow](https://stackoverflow.com/). И у него тоже есть [API](https://api.stackexchange.com/docs)
