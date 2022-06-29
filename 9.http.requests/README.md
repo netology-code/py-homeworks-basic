@@ -1,8 +1,8 @@
 # Домашнее задание к лекции 8.«Работа с библиотекой requests, http-запросы»
 
 ## Задача №1
-Кто самый умный супергерой?
-Есть [API по информации о супергероях]([https://superheroapi.com/?ref=apilist.fun#appearance](https://akabab.github.io/superhero-api/api/)). 
+Кто самый умный супергерой?  
+Есть [API по информации о супергероях](https://akabab.github.io/superhero-api/api/) с информацией по всем супергероям. 
 Нужно определить кто самый умный(intelligence) из трех супергероев- Hulk, Captain America, Thanos.
 
 
