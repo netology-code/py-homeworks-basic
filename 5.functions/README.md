@@ -41,6 +41,146 @@
 ## Задача №4
 Для подготовки к следующей лекции прочитайте про [классы](https://pythonworld.ru/osnovy/obektno-orientirovannoe-programmirovanie-obshhee-predstavlenie.html).
 
+
+
+## Ответ №1
+* `p` – people – команда, которая спросит номер документа и выведет имя человека, которому он принадлежит;
+
+# 1. People - Номер документа и кому принадлежит
+```
+def number_of_document(documents):
+    nomer = input('Введите номер документа: ')
+    for doc in documents:
+        if doc['number'] == nomer:
+           print(f"Имя владельца документа:{doc['name']}")
+           return
+    print("Док не найден")
+```
+
+* `s` – shelf – команда, которая спросит номер документа и выведет номер полки, на которой он находится;  
+
+#  2. Shelf - Вывод кому принадлежит и где находиться документ по номеру
+```
+def number_of_document_and_shelf(shelf):
+    nomer = input('Введите номер документа: ')
+    for key, values in shelf.items():
+        if nomer in values:
+            return key
+    if key == None:
+        print('Документа не существует')
+# print(number_of_document_and_shelf(directories))
+
+```
+ `l`– list – команда, которая выведет список всех документов в формате `passport "2207 876234" "Василий Гупкин"`;
+
+
+# 3.List - выведет все список всех документов
+
+```
+def print_documents(documents):
+    for doc in documents:
+        doc_type = doc['type']
+        doc_number = doc['number']
+        doc_name = doc['name']
+
+        print(f'{doc_type} "{doc_number}" "{doc_name}"')
+```
+* `a` – add – команда, которая добавит новый документ в каталог и в перечень полок, спросив его номер, тип, имя владельца и номер полки, на котором он будет храниться. *Корректно обработайте ситуацию, когда пользователь будет пытаться добавить документ на несуществующую полку*.
+
+
+# 4.Add - Внесет новый документ везде
+```
+def add_new_doc(doc,dir):
+    doc_number = input('Введите номер документа: ')
+    doc_type = input('Введите тип документа: ')
+    doc_owner = input('Введите имя владельца документа: ')
+    shelf_number = input('Введите номер полки: ')
+    new_doc = {"type": doc_type , "number": doc_number, "name": doc_owner}
+    if shelf_number in dir:
+        doc.append(new_doc)
+        print('Док добавлен')
+        print(doc)
+    else: print('Полки нету')
+```
+
+
+
+## Ответ №2
+
+* `d` – delete – команда, которая спросит номер документа и удалит полностью документ из каталога и его номер из перечня полок. *Предусмотрите сценарий, когда пользователь вводит несуществующий документ*;
+
+# 2.1 Удаление документа из документов и из полки
+```
+def delete_from_doc_and_shelf (documents,directories):
+    # запрашиваем номер документа у пользователя
+    doc_number= input('Введите номер документа: ')
+
+    found_doc = None
+    for doc in documents:
+        if doc["number"] == doc_number:
+            found_doc = doc
+            break
+
+#     Если док найден
+    if found_doc != None:
+        documents.remove(found_doc)
+        for shelf, docs in directories.items():
+            if doc_number in docs :
+                docs.remove(doc_number)
+                break
+        print('Док удален успешно')
+    else:
+        print('Док не найден')
+```
+
+* `m` – move – команда, которая спросит номер документа и целевую полку и переместит его с текущей полки на целевую. *Корректно обработайте кейсы, когда пользователь пытается переместить несуществующий документ или переместить документ на несуществующую полку*;
+
+# 2.2 Move - Номер документа и нужной полки. Найдет и переставит его.
+```
+def move_doc_on_right_shelf(documents,directories):
+    number = input('Введите номер документа: ')
+    shelf = input('Введите номер полки: ')
+    first_shelf = ""
+
+    # Находим текущую полку, на которой находится документ
+    for dir,document in directories.items():
+        if number in document:
+            first_shelf = dir
+            break
+
+    # Проверяем, что документ существует
+    if first_shelf == "":
+        print('Док не сущетсвует')
+        return
+
+    # Проверяем, что целевая полка существует
+    if shelf not in directories.keys():
+        print('Полки нэма')
+        return
+    # Перемещаем документ
+    directories[first_shelf].remove(number)
+    directories[shelf].append(number)
+    print("success")
+    print(documents,directories)
+```
+
+* `as` – add shelf – команда, которая спросит номер новой полки и добавит ее в перечень. *Предусмотрите случай, когда пользователь добавляет полку, которая уже существует*.;
+
+
+```
+def add_shelf(directories):
+    new_shelf = input('Введите номер новой полки: ')
+    if new_shelf in directories.keys():
+        print('Полка уже есть')
+        return
+    else:
+        directories[new_shelf] = []
+
+
+add_shelf(directories)
+print(directories)
+```
+
 ---
 Инструкция по выполнению домашнего задания:
 
